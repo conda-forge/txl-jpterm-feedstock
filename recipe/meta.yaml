@@ -1,13 +1,13 @@
 {% set name = "txl-jpterm" %}
-{% set version = "0.2.14" %}
+{% set version = "0.2.15" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/txl_jpterm-{{ version }}.tar.gz
-  sha256: ed5800b7d88f93eb2e1a28a23ffa0fced297c2963d5bc9ba7a459e64d820797e
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/txl_jpterm-{{ version }}.tar.gz
+  sha256: efcd0bfc5306c89f18e75b5b144863822dd739f81efb126554d81dc7124e4a22
 
 build:
   noarch: python
