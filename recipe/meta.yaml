@@ -1,6 +1,6 @@
 {% set python_min = "3.10" %}
 {% set name = "txl-jpterm" %}
-{% set version = "0.3.6" %}
+{% set version = "0.3.8" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/txl_jpterm-{{ version }}.tar.gz
-  sha256: a8a853ef29d6d5c5bed240b23ead6861f7215bd02c00483bee221905c50eb78f
+  sha256: 5b2a8a5fd1008ef314d6d8ec773d47d6282fa826f41312b21e893e9c657573d5
 
 build:
   noarch: python
